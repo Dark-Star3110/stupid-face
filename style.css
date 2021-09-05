@@ -33,6 +33,9 @@ body{
     border-bottom-right-radius: 70px;
     transition:0.5s;
 }
+.face:hover{
+    cursor: grab;
+}
 .face:hover:before{
     top: 210px;
     width:150px;
