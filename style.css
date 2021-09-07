@@ -10,6 +10,7 @@ body{
     align-items: center;
     min-height:100vh;
     background-color: #5d3800;
+    cursor: url(cursor.png) 2 2, auto;
 }
 
 .face{
@@ -35,12 +36,13 @@ body{
 }
 .face:hover{
     cursor: grab;
+    background: linear-gradient(180deg, #f44336,#f44336,#ffcd00);
 }
 .face:hover:before{
     top: 210px;
     width:150px;
     height: 30px;
-    background-color: #b57700;
+    background-color: #9d0b00;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
